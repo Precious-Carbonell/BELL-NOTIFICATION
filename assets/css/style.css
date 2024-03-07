@@ -5,7 +5,7 @@
   }
   
   body {
-    background: url(/images/church.jpg) center/cover no-repeat fixed;
+    background: url(church.jpg) center/cover no-repeat fixed;
     display: flex;
     justify-content: center;
     align-items: center;
