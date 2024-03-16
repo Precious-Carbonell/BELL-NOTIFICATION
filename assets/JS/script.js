@@ -26,10 +26,10 @@ button.addEventListener('click', () => {
 });
 
 bell.addEventListener('animationend', () => {
-  bell.classList.remove('shake'); // Remove the shake class when the animation ends
+    bell.classList.remove('shake'); // Remove the shake class when the animation ends
 });
 
 notification.addEventListener('animationend', () => {
-  notification.classList.remove('notify');
-  button.classList.remove('active');
+    notification.classList.remove('notify');
+    button.classList.remove('active');
 });
